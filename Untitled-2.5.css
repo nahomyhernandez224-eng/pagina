@@ -1,0 +1,54 @@
+/* Configuraciones generales para toda la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Color de fondo gris muy clarito */
+    color: #333; /* Texto oscuro para que se lea bien */
+}
+
+/* Diseño del encabezado (la parte de arriba) */
+header {
+    background-color: #2c3e50; /* Azul oscuro */
+    color: #ffffff; /* Letras blancas */
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Contenedor principal para centrar tu contenido */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Diseño de las tarjetas de contenido */
+.tarjeta {
+    background: #ffffff; /* Fondo blanco */
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+/* Estilo para los títulos de cada sección */
+h2 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db; /* Línea azul claro debajo del título */
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+/* Diseño del pie de página */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #2c3e50;
+    color: #ffffff;
+    margin-top: 40px;
+}
